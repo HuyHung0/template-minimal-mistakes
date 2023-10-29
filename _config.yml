@@ -294,3 +294,19 @@ defaults:
       toc: true
       toc_sticky: true
       show_date: true
+
+
+# default for jekyll compose
+jekyll_compose:
+  auto_open: true
+  default_front_matter:
+    drafts:
+      description:
+      layout:
+      category:
+      tags:
+    posts:
+      description:
+      layout:
+      category:
+      tags:
