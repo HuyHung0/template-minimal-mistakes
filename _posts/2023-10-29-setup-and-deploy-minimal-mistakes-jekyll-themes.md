@@ -18,18 +18,18 @@ Download the following files and folder:
 - `Gemfile1` create when run `jekyll new <name>`
 - `Gemfile2` from starter template
 
-Modify `Gemfile1` by adding plugin from `Gemfile2`, change gem theme to minimal mistakes, add plugin compose
+Modify `Gemfile1` by adding plugin from `Gemfile2`, change gem theme to minimal mistakes, add plugin compose.
 
 
 Modify `config.yml`
 
-    Set name, url, baseurl, sass: quite_deps:true (for hiding warning), search: true, defaults: post: value: toc: true tock_sticky:true; them, skin
+    Set name, url, baseurl, sass: quite_deps:true (for hiding warning), search: true, defaults: post: value: toc: true tock_sticky:true; them, skin,...
 
 Note: not use github-page plugin;
 
-Copy the workflow github action from al-folio to a folder name `.github/workflows`
+Use github action for deploying page in settings.
 
-run
+Run locally:
 ```bash
 bundle
 bundle exec jekyll serve
