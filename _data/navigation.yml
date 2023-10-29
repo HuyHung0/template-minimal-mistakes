@@ -1,0 +1,14 @@
+# main links
+main:
+  - title: "About"
+    url: https://huyhung0.github.io/
+  # - title: "page archive"
+  #   url: /page-archive/
+  - title: "Posts by years"
+    url: /year-archive/
+  - title: "Posts by tags"
+    url: /tags/
+  - title: "Posts by categories"
+    url: /categories/
+  # - title: "Quick-Start Guide"
+  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
